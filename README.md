@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Amine Ben Said</h1>
+<h1 align="center">Hi 👋, I'm Amine Bensaid</h1>
 <h3 align="center">Embedded Software Engineer | Robotics & Autonomous Systems Developer</h3>
 
 <p align="center">
@@ -14,6 +14,71 @@
 - 🔧 Building real-world embedded solutions with **STM32** and **ESP32**
 - 🚗 Developing **Autonomous Differential Drive Robots** with advanced sensor fusion
 - 🚀 Passionate about SLAM, Computer Vision, and Real-Time Systems
+
+---
+
+### 🤖 ROS2 Robotics Expertise
+
+<p align="center">
+  <img src="https://img.shields.io/badge/ROS2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2 Humble"/>
+  <img src="https://img.shields.io/badge/Micro--ROS-Enabled-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="Micro-ROS"/>
+  <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge&logo=gazebo&logoColor=white" alt="Gazebo"/>
+  <img src="https://img.shields.io/badge/SLAM-Navigation-success?style=for-the-badge&logo=robotframework&logoColor=white" alt="SLAM"/>
+</p>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+#### 📦 **ROS2 Packages & Tools**
+- **Navigation2** - Autonomous navigation stack
+- **Micro-ROS** - MCU-to-ROS2 bridge (STM32/ESP32)
+- **TF2** - Coordinate frame transformations
+- **URDF/Xacro** - Robot modeling
+- **RViz2** - 3D visualization
+- **RQt** - GUI tools and plugins
+
+</td>
+<td align="center" width="50%">
+
+#### 🗺️ **SLAM & Localization**
+- **SLAM Toolbox** - Real-time mapping
+- **Cartographer** - 2D/3D SLAM
+- **AMCL** - Adaptive localization
+- **EKF** - Extended Kalman Filter fusion
+- **Robot Localization** - Multi-sensor fusion
+- **Nav2 Costmap** - Dynamic obstacle handling
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+#### 🎯 **Hardware Integration**
+- **LiDAR** (RPLiDAR, LD06, etc.)
+- **IMU** (MPU6050, BNO055)
+- **Wheel Encoders** - Odometry
+- **Motor Controllers** (PWM, CAN)
+
+</td>
+<td align="center" width="50%">
+
+#### 🔄 **Communication Stack**
+- **DDS** (FastDDS/CycloneDDS)
+- **Micro-ROS** over Serial/WiFi
+- **ROS2 Actions & Services**
+- **Custom Message Types**
+- **Multi-robot communication**
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Raspberry_Pi_5-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi"/>
+  <img src="https://img.shields.io/badge/Platform-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/Platform-ESP32-000000?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+</p>
 
 ---
 
