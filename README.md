@@ -20,8 +20,8 @@
 ### 🤖 ROS2 Robotics Expertise
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ROS2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2 Humble"/>
-  <img src="https://img.shields.io/badge/Micro--ROS-Enabled-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="Micro-ROS"/>
+  <img src="https://img.shields.io/badge/ROS2-Jazzy-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2 Jazzy"/>
+  <img src="https://img.shields.io/badge/Micro--ROS-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="Micro-ROS"/>
   <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge&logo=gazebo&logoColor=white" alt="Gazebo"/>
   <img src="https://img.shields.io/badge/SLAM-Navigation-success?style=for-the-badge&logo=robotframework&logoColor=white" alt="SLAM"/>
 </p>
@@ -173,30 +173,15 @@
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=aminebensaid66&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=aminebensaid66&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aminebensaid66&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</p>
-
----
-
 ### 🌐 Connect with Me
 
 <p align="left">
-<!-- Add your social media links here -->
-<!-- 
-<a href="your-linkedin" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin" height="30" width="40" /></a>
-<a href="your-twitter" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter" height="30" width="40" /></a>
--->
+  <a href="https://www.linkedin.com/in/amine-bensaid/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:mohamedamine.bensaid@insat.ucar.tn">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
 </p>
 
 ---
