@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Amine Bensaid</h1>
-<h3 align="center">Embedded Software Engineer | Robotics & Autonomous Systems Developer</h3>
+<h1 align="center">Hi, I'm Amine Bensaid</h1>
+<h3 align="center">Software Engineer &nbsp;·&nbsp; Full-Stack &nbsp;·&nbsp; Cloud IoT &nbsp;·&nbsp; Distributed Systems</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aminebensaid66&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
@@ -7,185 +7,185 @@
 
 ---
 
-### 🎓 About Me
+### About Me
 
-- 🏛️ **University Student** at **INSAT** studying **Embedded Software Engineering**
-- 🤖 Specializing in **Robotics**, **Autonomous Systems**, and **Embedded IoT**
-- 🔧 Building real-world embedded solutions with **STM32** and **ESP32**
-- 🚗 Developing **Autonomous Differential Drive Robots** with advanced sensor fusion
-- 🚀 Passionate about SLAM, Computer Vision, and Real-Time Systems
+- 🎓 **Engineering Student** at **INSAT** — Engineer's Degree in Embedded Systems Engineering
+- 💼 **Software Engineer Intern (IoT)** at **Orange Digital Center** — built a production, end-to-end cloud IoT platform
+- 🤖 Core member of **AEROBOTIX INSAT** — ROS 2 developer on award-winning autonomous robotics systems
+- 🏆 **2nd Place** at **EUROBOT 2026 Finals** (France) &nbsp;·&nbsp; **1st Place** at **NXP Cup Tunisia**
+- 🔧 I design software across the full stack — from real-time embedded firmware and ROS 2 middleware to cloud pipelines, web dashboards, and cross-platform mobile apps
 
 ---
 
-### 🤖 ROS2 Robotics Expertise
+### Achievements
+
+| | Award | Event | Date |
+|:---:|:---|:---|:---:|
+| 🥈 | **2nd Place — Accumulation Phase (Global)** | EUROBOT 2026 Finals, France | May 2026 |
+| 🏅 | **5th Place Overall** | EUROBOT 2026 Finals, France | May 2026 |
+| 🥇 | **1st Place** | EUROBOT 2026 National Qualifications | 2026 |
+| 🥇 | **1st Place** | NXP Cup Tunisia (sole qualified Tunisian team) | May 2025 |
+
+---
+
+### Software Engineering & Cloud
+
+#### Languages
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
+</p>
+
+#### Web & Full-Stack
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+</p>
+
+`Flask` &nbsp; `ROSBridge` &nbsp; `REST APIs` &nbsp; `WebSockets` &nbsp; `React` &nbsp; `Next.js`
+
+#### Mobile
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
+</p>
+
+`Flutter` &nbsp; `Dart` &nbsp; `BLE` &nbsp; `Real-time Telemetry`
+
+#### Cloud & IoT
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="40"/>
+</p>
+
+`AWS IoT Core` &nbsp; `MQTT` &nbsp; `HTTP` &nbsp; `Embedded Firmware` &nbsp; `Sensor Integration`
+
+#### Tools & Workflow
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+</p>
+
+`Git` &nbsp; `GitHub` &nbsp; `Jira (Agile)` &nbsp; `OpenCV` &nbsp; `PlatformIO` &nbsp; `systemd`
+
+---
+
+### Distributed Systems & Robotics
 
 <p align="center">
   <img src="https://img.shields.io/badge/ROS2-Jazzy-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2 Jazzy"/>
-  <img src="https://img.shields.io/badge/Micro--ROS-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="Micro-ROS"/>
-  <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge&logo=gazebo&logoColor=white" alt="Gazebo"/>
-  <img src="https://img.shields.io/badge/SLAM-Navigation-success?style=for-the-badge&logo=robotframework&logoColor=white" alt="SLAM"/>
+  <img src="https://img.shields.io/badge/micro--ROS-Middleware-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="micro-ROS"/>
+  <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge" alt="Gazebo"/>
+  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi"/>
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
 </p>
 
 <table align="center">
 <tr>
 <td align="center" width="50%">
 
-#### 📦 **ROS2 Packages & Tools**
-- **Navigation2** - Autonomous navigation stack
-- **Micro-ROS** - MCU-to-ROS2 bridge (STM32/ESP32)
-- **TF2** - Coordinate frame transformations
-- **URDF/Xacro** - Robot modeling
-- **RViz2** - 3D visualization
-- **RQt** - GUI tools and plugins
+#### Distributed Architecture
+- **ROS 2 (Jazzy)** — multi-node, multi-robot pub/sub middleware
+- **micro-ROS** — MCU-to-ROS 2 bridge (STM32 / ESP32)
+- **DDS** (FastDDS / CycloneDDS) — transport layer
+- **ROS 2 Actions & Services** — async task coordination
+- **systemd** — production service deployment on embedded Linux
 
 </td>
 <td align="center" width="50%">
 
-#### 🗺️ **SLAM & Localization**
-- **SLAM Toolbox** - Real-time mapping
-- **Cartographer** - 2D/3D SLAM
-- **AMCL** - Adaptive localization
-- **EKF** - Extended Kalman Filter fusion
-- **Robot Localization** - Multi-sensor fusion
-- **Nav2 Costmap** - Dynamic obstacle handling
+#### Autonomy & Perception
+- **Navigation2** — autonomous navigation stack
+- **Hybrid A\*** — custom path planning algorithm
+- **SLAM Toolbox / Cartographer** — real-time mapping
+- **EKF (Robot Localization)** — multi-sensor state fusion
+- **LiDAR + IMU** — perception pipeline
+- **PID Control** — closed-loop actuator regulation
 
 </td>
 </tr>
 <tr>
 <td align="center" width="50%">
 
-#### 🎯 **Hardware Integration**
-- **LiDAR** (RPLiDAR, LD06, etc.)
-- **IMU** (MPU6050, BNO055)
-- **Wheel Encoders** - Odometry
-- **Motor Controllers** (PWM, CAN)
+#### Embedded Platforms
+- **Raspberry Pi 5** — onboard compute
+- **STM32** — real-time motor control & firmware
+- **ESP32** — wireless edge node
+- **Teensy 4** — high-frequency control loops
+- **FreeRTOS** — real-time task scheduling
 
 </td>
 <td align="center" width="50%">
 
-#### 🔄 **Communication Stack**
-- **DDS** (FastDDS/CycloneDDS)
-- **Micro-ROS** over Serial/WiFi
-- **ROS2 Actions & Services**
-- **Custom Message Types**
-- **Multi-robot communication**
+#### Communication Protocols
+- **Serial / UDP** — micro-ROS transport layers
+- **BLE** — mobile-to-robot low-latency link
+- **MQTT** — cloud telemetry streaming
+- **I2C / SPI / UART** — hardware sensor buses
 
 </td>
 </tr>
 </table>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Raspberry_Pi_5-C51A4A?style=flat-square&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi"/>
-  <img src="https://img.shields.io/badge/Platform-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
-  <img src="https://img.shields.io/badge/Platform-ESP32-000000?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
-</p>
+---
+
+### Project Highlights
+
+#### IoT Monitoring Platform — Orange Digital Center
+> **Software Engineer Intern (IoT) · 4 months · Agile / Jira**
+
+- Architected a production end-to-end IoT platform spanning embedded firmware, cloud pipeline, web dashboard, and touchscreen UI for industrial pool management
+- Integrated **AWS IoT Core + MQTT** for live telemetry streaming, remote monitoring, and command execution
+- Developed **closed-loop embedded firmware** for real-time sensor data acquisition and automated actuator control
+- Shipped features iteratively in an Agile team environment using **Jira**
 
 ---
 
-### 🛠️ Tech Stack & Skills
+#### EUROBOT 2026 Autonomous Robotics System — AEROBOTIX INSAT
+> **2nd Place Finals (France) · 1st Place Qualifications · ROS 2 Jazzy**
 
-#### **Languages**
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cpp" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-</p>
-
-#### **Mobile Development**
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart" width="40" height="40"/>
-</p>
-
-#### **Web Development**
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="40" height="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="html5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="css3" width="40" height="40"/>
-</p>
-
-#### **Embedded Systems & Microcontrollers**
-<p align="left">
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/>
-  <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="raspberry pi" width="40" height="40"/>
-</p>
-
-**Microcontrollers:** STM32 | ESP32 | Arduino
-
-**Communication Protocols:** Micro-ROS | UART | I2C | SPI | CAN
-
-#### **Robotics & Simulation**
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/ros/ros-icon.svg" alt="ros" width="40" height="40"/>
-</p>
-
-**ROS2 Stack:** Navigation2 | Micro-ROS | TF2 | URDF
-
-**Simulation:** Gazebo | RViz
-
-**SLAM & Localization:** SLAM Toolbox | Cartographer | EKF (Extended Kalman Filter)
-
-**Sensors:** LiDAR | IMU | Encoders | Ultrasonic
-
-#### **Tools & Platforms**
-<p align="left">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-</p>
+- Designed a **distributed ROS 2 multi-robot software architecture** with autonomous navigation, task scheduling, and Hybrid A\* path planning across heterogeneous nodes
+- Built a **micro-ROS communication layer** (Serial + UDP) bridging ROS 2 to STM32 / ESP32 for low-latency real-time data exchange
+- Developed a **Flask + ROSBridge full-stack robotics dashboard** for live robot visualization, strategy control, simulation, and real-time telemetry over ROS topics
+- Deployed production robotics software on embedded Linux using **systemd services** for competition-grade reliability
 
 ---
 
-### 🔥 Project Highlights
+#### NXP Cup — Autonomous Lane-Following Robot
+> **1st Place Nationally · Sole Tunisian Team at International Competition (Netherlands, May 2025)**
 
-#### 🤖 **Autonomous Differential Drive Robot**
-- Developing a fully autonomous robot with differential drive kinematics
-- **Sensor Fusion** using Extended Kalman Filter (EKF) for accurate localization
-- Integration of **LiDAR** and **IMU** for real-time environment mapping
-- SLAM implementation for autonomous navigation and obstacle avoidance
-
-#### 🔌 **Embedded Systems & Communication**
-- **Raspberry Pi ↔ STM32** communication using Micro-ROS
-- **Raspberry Pi ↔ ESP32** integration for distributed IoT systems
-- Real-time control and data exchange between microcontrollers
-- Low-level driver development for sensor interfaces
-
-#### 🗺️ **SLAM & Navigation**
-- Implemented SLAM algorithms for autonomous mapping
-- **Gazebo** simulation environment for robot testing and validation
-- Path planning and trajectory optimization
-- Sensor fusion with EKF for robust state estimation
-
-#### 🎮 **Simulation & Visualization**
-- Created realistic robot models in **Gazebo** with physics simulation
-- LiDAR and IMU sensor simulation for algorithm testing
-- RViz integration for real-time visualization of robot state and environment
-
-#### 📱 **Mobile Development**
-- Built cross-platform mobile applications using **Flutter** and **Dart**
-- Focus on clean UI/UX and responsive design
-
-#### 🌐 **Web Development**
-- Developed modern web applications with **React** and **Next.js**
-- Implemented full-stack solutions with modern frameworks
+- Designed and implemented the **complete software architecture** for an autonomous lane-following robot (Teensy 4 + Pixy2 camera)
+- Developed a **real-time Embedded C++ control system** with a PID feedback loop for precise motor regulation using visual lane input and encoder odometry
 
 ---
 
-### 🌐 Connect with Me
+#### 4-Wheel Robot with Flutter Mobile App & BLE Telemetry
+> **Cross-platform mobile control interface with real-time data pipeline**
+
+- Built a **Flutter mobile application** for real-time robot monitoring, remote command execution, and live telemetry visualization
+- Implemented **BLE communication** between the robot and mobile app for low-latency data exchange
+- Integrated **encoder-based odometry** to estimate and visualize robot position and motion in real time within the app
+
+---
+
+### Connect with Me
 
 <p align="left">
   <a href="https://www.linkedin.com/in/amine-bensaid/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:mohamedamine.bensaid@insat.ucar.tn">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <i>⚡ "The best way to predict the future is to invent it" ⚡</i>
+  <i>"The best way to predict the future is to invent it."</i>
 </p>
