@@ -1,132 +1,204 @@
-<h1 align="center">Hi, I'm Amine Bensaid</h1>
+<h1 align="center">Amine Bensaid</h1>
 <h3 align="center">Software Engineer &nbsp;·&nbsp; Full-Stack &nbsp;·&nbsp; Cloud IoT &nbsp;·&nbsp; Distributed Systems</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=aminebensaid66&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
 </p>
 
----
-
-### About Me
-
-- 🎓 **Engineering Student** at **INSAT** — Engineer's Degree in Embedded Systems Engineering
-- 💼 **Software Engineer Intern (IoT)** at **Orange Digital Center** — built a production, end-to-end cloud IoT platform
-- 🤖 Core member of **AEROBOTIX INSAT** — ROS 2 developer on award-winning autonomous robotics systems
-- 🏆 **2nd Place** at **EUROBOT 2026 Finals** (France) &nbsp;·&nbsp; **1st Place** at **NXP Cup Tunisia**
-- 🔧 I design software across the full stack — from real-time embedded firmware and ROS 2 middleware to cloud pipelines, web dashboards, and cross-platform mobile apps
+<p align="center">
+  Engineering student at <strong>INSAT</strong> · Former <strong>IoT Software Engineer Intern</strong> at <strong>Orange Digital Center</strong> · Core member of <strong>AEROBOTIX INSAT</strong>
+</p>
 
 ---
 
-### Achievements
+## Skills
 
-| | Award | Event | Date |
-|:---:|:---|:---|:---:|
-| 🥈 | **2nd Place — Accumulation Phase (Global)** | EUROBOT 2026 Finals, France | May 2026 |
-| 🏅 | **5th Place Overall** | EUROBOT 2026 Finals, France | May 2026 |
-| 🥇 | **1st Place** | EUROBOT 2026 National Qualifications | 2026 |
-| 🥇 | **1st Place** | NXP Cup Tunisia (sole qualified Tunisian team) | May 2025 |
+### Languages
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="42" height="42" title="C++"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="42" height="42" title="Python"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="42" height="42" title="C"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="42" height="42" title="JavaScript"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="42" height="42" title="TypeScript"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="42" height="42" title="Dart"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="42" height="42" title="Java"/>
+</p>
 
 ---
 
-### Software Engineering & Cloud
+### Frontend
 
-#### Languages
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="42" height="42" title="React"/>
+  &nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="42" height="42" title="Next.js"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="42" height="42" title="HTML5"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="42" height="42" title="CSS3"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" width="42" height="42" title="Tailwind CSS"/>
 </p>
 
-#### Web & Full-Stack
+---
+
+### Backend & APIs
+
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="Next.js" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original-wordmark.svg" alt="Flask" width="42" height="42" title="Flask"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="42" height="42" title="Node.js"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="Angular" width="42" height="42" title="Angular"/>
 </p>
 
-`Flask` &nbsp; `ROSBridge` &nbsp; `REST APIs` &nbsp; `WebSockets` &nbsp; `React` &nbsp; `Next.js`
-
-#### Mobile
 <p align="left">
-  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="40" height="40"/>
+  <img src="https://img.shields.io/badge/REST_APIs-005571?style=flat-square" alt="REST APIs"/>
+  <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white" alt="WebSockets"/>
+  <img src="https://img.shields.io/badge/ROSBridge-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROSBridge"/>
 </p>
 
-`Flutter` &nbsp; `Dart` &nbsp; `BLE` &nbsp; `Real-time Telemetry`
+---
 
-#### Cloud & IoT
+### Mobile
+
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="50" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="42" height="42" title="Flutter"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="Dart" width="42" height="42" title="Dart"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React Native" width="42" height="42" title="React Native"/>
 </p>
 
-`AWS IoT Core` &nbsp; `MQTT` &nbsp; `HTTP` &nbsp; `Embedded Firmware` &nbsp; `Sensor Integration`
-
-#### Tools & Workflow
 <p align="left">
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+  <img src="https://img.shields.io/badge/BLE-0082FC?style=flat-square&logo=bluetooth&logoColor=white" alt="BLE"/>
+  <img src="https://img.shields.io/badge/Real--time_Telemetry-00ACC1?style=flat-square" alt="Real-time Telemetry"/>
 </p>
 
-`Git` &nbsp; `GitHub` &nbsp; `Jira (Agile)` &nbsp; `OpenCV` &nbsp; `PlatformIO` &nbsp; `systemd`
+---
+
+### Cloud & IoT
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="52" height="42" title="AWS"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/AWS_IoT_Core-FF9900?style=flat-square&logo=amazon-aws&logoColor=white" alt="AWS IoT Core"/>
+  <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipse-mosquitto&logoColor=white" alt="MQTT"/>
+  <img src="https://img.shields.io/badge/HTTP-005C84?style=flat-square" alt="HTTP"/>
+  <img src="https://img.shields.io/badge/Embedded_Firmware-37474F?style=flat-square" alt="Embedded Firmware"/>
+</p>
 
 ---
 
 ### Distributed Systems & Robotics
 
-<p align="center">
-  <img src="https://img.shields.io/badge/ROS2-Jazzy-22314E?style=for-the-badge&logo=ros&logoColor=white" alt="ROS2 Jazzy"/>
-  <img src="https://img.shields.io/badge/micro--ROS-Middleware-00ADD8?style=for-the-badge&logo=ros&logoColor=white" alt="micro-ROS"/>
-  <img src="https://img.shields.io/badge/Gazebo-Simulation-orange?style=for-the-badge" alt="Gazebo"/>
-  <img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
-  <img src="https://img.shields.io/badge/Raspberry_Pi-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white" alt="Raspberry Pi"/>
-  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
+<p align="left">
+  <img src="https://img.shields.io/badge/ROS_2_Jazzy-22314E?style=flat-square&logo=ros&logoColor=white" alt="ROS2"/>
+  <img src="https://img.shields.io/badge/micro--ROS_Middleware-00ADD8?style=flat-square&logo=ros&logoColor=white" alt="micro-ROS"/>
+  <img src="https://img.shields.io/badge/DDS_(FastDDS)-4A90D9?style=flat-square" alt="DDS"/>
+  <img src="https://img.shields.io/badge/Navigation2-success?style=flat-square" alt="Navigation2"/>
+  <img src="https://img.shields.io/badge/Hybrid_A*_Planning-FF6F00?style=flat-square" alt="Hybrid A*"/>
+  <img src="https://img.shields.io/badge/SLAM_Toolbox-8E24AA?style=flat-square" alt="SLAM"/>
+  <img src="https://img.shields.io/badge/EKF_Localization-00796B?style=flat-square" alt="EKF"/>
+  <img src="https://img.shields.io/badge/PID_Control-E53935?style=flat-square" alt="PID"/>
+  <img src="https://img.shields.io/badge/Gazebo_Simulation-F57C00?style=flat-square" alt="Gazebo"/>
 </p>
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
+---
 
-#### Distributed Architecture
-- **ROS 2 (Jazzy)** — multi-node, multi-robot pub/sub middleware
-- **micro-ROS** — MCU-to-ROS 2 bridge (STM32 / ESP32)
-- **DDS** (FastDDS / CycloneDDS) — transport layer
-- **ROS 2 Actions & Services** — async task coordination
-- **systemd** — production service deployment on embedded Linux
+### Embedded Platforms
+
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/raspberrypi/raspberrypi-icon.svg" alt="Raspberry Pi" width="42" height="42" title="Raspberry Pi"/>
+  &nbsp;
+  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="Arduino" width="42" height="42" title="Arduino"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white" alt="STM32"/>
+  <img src="https://img.shields.io/badge/ESP32-000000?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+  <img src="https://img.shields.io/badge/Teensy_4-0073CF?style=flat-square" alt="Teensy 4"/>
+  <img src="https://img.shields.io/badge/FreeRTOS-00878A?style=flat-square" alt="FreeRTOS"/>
+</p>
+
+**Protocols:** `I2C` · `SPI` · `UART` · `CAN` · `Serial` · `UDP` · `BLE`
+
+---
+
+### Tools & Workflow
+
+<p align="left">
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="42" height="42" title="Git"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="42" height="42" title="Linux"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jira/jira-original.svg" alt="Jira" width="42" height="42" title="Jira"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/opencv/opencv-original.svg" alt="OpenCV" width="42" height="42" title="OpenCV"/>
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="42" height="42" title="Docker"/>
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/systemd-000000?style=flat-square&logo=linux&logoColor=white" alt="systemd"/>
+  <img src="https://img.shields.io/badge/PlatformIO-F5822A?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO"/>
+  <img src="https://img.shields.io/badge/Agile_(Jira)-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Agile Jira"/>
+</p>
+
+---
+
+## Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**IoT Monitoring Platform**
+*Orange Digital Center · Internship*
+
+End-to-end IoT system — embedded firmware, AWS cloud pipeline, and full-stack web dashboard for real-time industrial monitoring.
+
+`Python` `Flask` `AWS IoT Core` `MQTT` `Embedded C` `Agile`
 
 </td>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-#### Autonomy & Perception
-- **Navigation2** — autonomous navigation stack
-- **Hybrid A\*** — custom path planning algorithm
-- **SLAM Toolbox / Cartographer** — real-time mapping
-- **EKF (Robot Localization)** — multi-sensor state fusion
-- **LiDAR + IMU** — perception pipeline
-- **PID Control** — closed-loop actuator regulation
+**EUROBOT 2026 Autonomous System**
+*AEROBOTIX INSAT · 2nd Place Finals (France)*
+
+Distributed multi-robot software stack — ROS 2 architecture, Hybrid A\* planning, micro-ROS middleware, and a full-stack live robotics dashboard.
+
+`ROS 2` `C++` `Python` `Flask` `micro-ROS` `STM32` `ESP32`
 
 </td>
 </tr>
 <tr>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-#### Embedded Platforms
-- **Raspberry Pi 5** — onboard compute
-- **STM32** — real-time motor control & firmware
-- **ESP32** — wireless edge node
-- **Teensy 4** — high-frequency control loops
-- **FreeRTOS** — real-time task scheduling
+**NXP Cup Lane-Following Robot**
+*1st Place Nationally · International Finals (Netherlands)*
+
+Autonomous robot with real-time Embedded C++ control loop, PID-based motor regulation, and visual lane tracking via Pixy2 camera.
+
+`Embedded C++` `PID Control` `Teensy 4` `Pixy2`
 
 </td>
-<td align="center" width="50%">
+<td width="50%" valign="top">
 
-#### Communication Protocols
-- **Serial / UDP** — micro-ROS transport layers
-- **BLE** — mobile-to-robot low-latency link
-- **MQTT** — cloud telemetry streaming
-- **I2C / SPI / UART** — hardware sensor buses
+**Robot Control Mobile App**
+
+Cross-platform Flutter app with BLE communication for real-time robot telemetry, remote command execution, and live odometry visualization.
+
+`Flutter` `Dart` `BLE` `Real-time Telemetry`
 
 </td>
 </tr>
@@ -134,46 +206,7 @@
 
 ---
 
-### Project Highlights
-
-#### IoT Monitoring Platform — Orange Digital Center
-> **Software Engineer Intern (IoT) · 4 months · Agile / Jira**
-
-- Architected a production end-to-end IoT platform spanning embedded firmware, cloud pipeline, web dashboard, and touchscreen UI for industrial pool management
-- Integrated **AWS IoT Core + MQTT** for live telemetry streaming, remote monitoring, and command execution
-- Developed **closed-loop embedded firmware** for real-time sensor data acquisition and automated actuator control
-- Shipped features iteratively in an Agile team environment using **Jira**
-
----
-
-#### EUROBOT 2026 Autonomous Robotics System — AEROBOTIX INSAT
-> **2nd Place Finals (France) · 1st Place Qualifications · ROS 2 Jazzy**
-
-- Designed a **distributed ROS 2 multi-robot software architecture** with autonomous navigation, task scheduling, and Hybrid A\* path planning across heterogeneous nodes
-- Built a **micro-ROS communication layer** (Serial + UDP) bridging ROS 2 to STM32 / ESP32 for low-latency real-time data exchange
-- Developed a **Flask + ROSBridge full-stack robotics dashboard** for live robot visualization, strategy control, simulation, and real-time telemetry over ROS topics
-- Deployed production robotics software on embedded Linux using **systemd services** for competition-grade reliability
-
----
-
-#### NXP Cup — Autonomous Lane-Following Robot
-> **1st Place Nationally · Sole Tunisian Team at International Competition (Netherlands, May 2025)**
-
-- Designed and implemented the **complete software architecture** for an autonomous lane-following robot (Teensy 4 + Pixy2 camera)
-- Developed a **real-time Embedded C++ control system** with a PID feedback loop for precise motor regulation using visual lane input and encoder odometry
-
----
-
-#### 4-Wheel Robot with Flutter Mobile App & BLE Telemetry
-> **Cross-platform mobile control interface with real-time data pipeline**
-
-- Built a **Flutter mobile application** for real-time robot monitoring, remote command execution, and live telemetry visualization
-- Implemented **BLE communication** between the robot and mobile app for low-latency data exchange
-- Integrated **encoder-based odometry** to estimate and visualize robot position and motion in real time within the app
-
----
-
-### Connect with Me
+## Connect
 
 <p align="left">
   <a href="https://www.linkedin.com/in/amine-bensaid/" target="_blank">
@@ -186,6 +219,4 @@
 
 ---
 
-<p align="center">
-  <i>"The best way to predict the future is to invent it."</i>
-</p>
+<p align="center"><i>"The best way to predict the future is to invent it."</i></p>
