@@ -1,0 +1,50 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="70" y1="20" x2="1130" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17122B"/>
+      <stop offset="0.52" stop-color="#25154B"/>
+      <stop offset="1" stop-color="#102C38"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="210" y1="80" x2="990" y2="250" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A72"/>
+      <stop offset="0.48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#2DD4BF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#background)"/>
+  <circle cx="1070" cy="55" r="145" fill="#A78BFA" opacity="0.08"/>
+  <circle cx="115" cy="295" r="190" fill="#2DD4BF" opacity="0.07"/>
+
+  <g opacity="0.5" stroke="url(#accent)" stroke-width="2">
+    <path d="M84 88L194 58L284 112L390 65"/>
+    <path d="M814 238L914 194L1014 242L1124 188"/>
+    <path d="M118 235L240 260L330 224"/>
+    <path d="M872 82L974 112L1082 76"/>
+  </g>
+
+  <g fill="#FF7A72" filter="url(#glow)">
+    <circle cx="84" cy="88" r="5"/><circle cx="284" cy="112" r="5"/><circle cx="1082" cy="76" r="5"/>
+  </g>
+  <g fill="#A78BFA" filter="url(#glow)">
+    <circle cx="194" cy="58" r="5"/><circle cx="390" cy="65" r="5"/><circle cx="914" cy="194" r="5"/>
+  </g>
+  <g fill="#2DD4BF" filter="url(#glow)">
+    <circle cx="118" cy="235" r="5"/><circle cx="330" cy="224" r="5"/><circle cx="814" cy="238" r="5"/><circle cx="1124" cy="188" r="5"/>
+  </g>
+
+  <text x="335" y="120" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="4">AMINE BENSAID</text>
+  <rect x="425" y="143" width="350" height="3" rx="1.5" fill="url(#accent)"/>
+  <text x="463" y="190" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="420" y="230" fill="#B8B4C8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">TOOLS  •  PLATFORMS  •  AUTONOMOUS SYSTEMS</text>
+
+  <g transform="translate(430 264)">
+    <circle cx="0" cy="0" r="5" fill="#FF7A72"/><text x="14" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">CODE</text>
+    <circle cx="115" cy="0" r="5" fill="#A78BFA"/><text x="129" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">CONNECT</text>
+    <circle cx="264" cy="0" r="5" fill="#2DD4BF"/><text x="278" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">SHIP</text>
+  </g>
+</svg>
