@@ -25,7 +25,7 @@ from microcontroller firmware to ROS 2 to the editor you debug it in.
 
 - 🪐 Maintaining **[ROS 2 Inspector](https://github.com/aminebensaid66/ros2_inspector)** — static architecture analysis for ROS 2, on PyPI, with a [VS Code extension](https://github.com/aminebensaid66/ros2_inspector_vscode).
 - 🎬 Building **[MotionDeck](https://github.com/aminebensaid66/MotionDeck)** — an MCP server that lets Claude and Codex produce animated presentations and export them to HTML, PDF, or video.
-- 🦾 Writing robot software with **[Aerobotix INSAT](https://github.com/Eurobot-2026-Aerobotix)** — ROS 2, micro-ROS, lidar, and navigation.
+- 🦾 Building the **[ROS 2 stack](https://github.com/Eurobot-2026-Aerobotix/ROS2-WS-EURO)** and **[rosbridge dashboard](https://github.com/Eurobot-2026-Aerobotix/Eurobot_Dashboard)** for Aerobotix INSAT's Eurobot robot — path planning, strategy, and micro-ROS.
 - 💼 Open to **internships and software engineering roles** in developer tooling, full-stack systems, robotics, and embedded software.
 
 ## Featured open source
@@ -98,27 +98,99 @@ Describe a linear program in **English or French** and get an optimal plan with 
 </tr>
 </table>
 
-## Robotics & embedded
+## 🦾 Eurobot 2026 — ROS 2 robot stack
+
+<sup>AEROBOTIX INSAT · ROS 2 & EMBEDDED DEVELOPER</sup>
+
+🥇 **1st in Tunisia** &nbsp;·&nbsp; 🥈 **Accumulation phase** &nbsp;·&nbsp; 🌍 **Top 5 worldwide** &nbsp;·&nbsp; [Team organization ↗](https://github.com/Eurobot-2026-Aerobotix) &nbsp;·&nbsp; [Robot demo ↗](https://www.youtube.com/watch?v=EC6gGIbOj7o&list=PLNhKoU2ZKSAGotMFKrfqBCY1hgt4LfQE8)
+
+An autonomous competition robot whose brain is a Raspberry Pi running **ROS 2 Jazzy**. It plans paths around live obstacles, runs match strategies, and drives an STM32 and several ESP32 boards through micro-ROS — all monitored and controlled from a browser over **rosbridge**.
+
+```mermaid
+flowchart LR
+    subgraph Browser
+        DASH["Match dashboard<br/>roslib.js"]
+    end
+    subgraph RPI["Raspberry Pi · ROS 2 Jazzy"]
+        RB["rosbridge_server"]
+        API["Flask API<br/>strategies · launch · logs"]
+        WH["web_handler"]
+        HA["hybrid_astar<br/>/compute_path"]
+        STRAT["strategy manager<br/>+ executor"]
+        TS["task scheduler"]
+        LID["lidar obstacle<br/>warning"]
+        AG["micro-ROS agents"]
+    end
+    DASH <-->|"WebSocket · topics & services"| RB
+    DASH -->|REST| API
+    RB <--> WH
+    WH --> HA
+    STRAT --> TS
+    TS <--> HA
+    LID --> TS
+    TS <--> AG
+    AG <-->|serial| STM["STM32<br/>navigation"]
+    AG <-->|"Wi-Fi · UDP"| ESP["ESP32<br/>actuator boards"]
+```
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🦾 Eurobot 2026 — Aerobotix INSAT
+### 🧠 ROS 2 workspace
 
-<sup>AEROBOTIX INSAT · ROS 2 & EMBEDDED DEVELOPER</sup>
+<sup>TOP CONTRIBUTOR · PYTHON · RCLPY</sup>
 
-A Raspberry Pi running ROS 2 coordinates an STM32 navigation board, ESP32 actuator boards, a lidar, and small autonomous PAMI robots.
+The robot's onboard software, about 23k lines of Python across five packages.
 
-**My work:** the strategy, task-scheduling, and decision-making nodes of the [ROS 2 workspace](https://github.com/Eurobot-2026-Aerobotix/ROS2-WS-EURO); Hybrid A* path planning with live obstacles; micro-ROS links with auto-reconnect and reliable QoS on the STM32 and ESP32 boards; lidar obstacle warnings; and the [match dashboard](https://github.com/Eurobot-2026-Aerobotix/Eurobot_Dashboard) for strategy selection and full-game path visualization.
+- **Hybrid A\* planner** (main author): orientation-aware paths, footprint collision checks, smoothing, and a live obstacle database updated over topics and services
+- **Strategy & task scheduling**: YAML-defined match strategies, pick/put-down sequencing, retreats, safety obstacles, and return-home timing
+- **Custom interfaces**: `ComputePath`, `UpdateMap`, `PutDown`, `ObstacleArray`, `ActiveBatches`, and more
+- Concurrency with `MultiThreadedExecutor` and reentrant callback groups, explicit QoS profiles, tf2 transforms, and RViz visualization
 
-`ROS 2` `Python` `C++` `micro-ROS` `STM32` `ESP32`
+`ROS 2 Jazzy` `rclpy` `Custom msgs/srvs` `tf2` `RViz` `micro-ROS`
 
-🥇 Tunisia &nbsp;·&nbsp; 🥈 Accumulation phase &nbsp;·&nbsp; **Top 5 worldwide**
-
-[**Team organization ↗**](https://github.com/Eurobot-2026-Aerobotix) &nbsp; [Robot demo ↗](https://www.youtube.com/watch?v=EC6gGIbOj7o&list=PLNhKoU2ZKSAGotMFKrfqBCY1hgt4LfQE8)
+[**ROS2-WS-EURO ↗**](https://github.com/Eurobot-2026-Aerobotix/ROS2-WS-EURO)
 
 </td>
+<td width="50%" valign="top">
+
+### 🖥️ Match dashboard (rosbridge)
+
+<sup>CORE DEVELOPER · ROSLIB.JS · FLASK</sup>
+
+A web control room served from the robot, used from any laptop on the team network.
+
+- **Live robot view over rosbridge**: subscribes to pose, planned path, `MarkerArray`, and obstacle topics; publishes start/goal/enemy poses; calls `std_srvs/Trigger` services
+- **`web_handler` bridge node**: converts browser commands (mm → m, degrees → quaternions) into planner requests and returns results
+- **Match control**: strategy editor and selection, start/stop, PAMI tests, micro-ROS agent restart, and live log streaming
+- Rotated/mirrored real-table map, full-game path preview, and auto-reconnect, all run as **systemd** services on the Pi
+
+`rosbridge` `roslib.js` `JavaScript` `Flask` `systemd` `Raspberry Pi`
+
+[**Eurobot_Dashboard ↗**](https://github.com/Eurobot-2026-Aerobotix/Eurobot_Dashboard)
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Firmware & other Eurobot repos I contributed to</strong></summary>
+<br />
+
+| Repo | My contribution |
+|---|---|
+| [Navigation_MicroROS_2026](https://github.com/Eurobot-2026-Aerobotix/Navigation_MicroROS_2026) | STM32 micro-ROS: pose topic, services, automatic reconnect when the agent restarts |
+| [System_code_ESP32_back](https://github.com/Eurobot-2026-Aerobotix/System_code_ESP32_back) / [front](https://github.com/Eurobot-2026-Aerobotix/System_code_ESP32_front) / [pneumatic](https://github.com/Eurobot-2026-Aerobotix/System_Code_ESP32_pneumatic) | Agent reconnection, reliable QoS, faster DDS discovery, status and debug topics, memory fix |
+| [PAMI_ESP32_code](https://github.com/Eurobot-2026-Aerobotix/PAMI_ESP32_code) | Status service, motion commands, and beacon communication for the small PAMI robots |
+| [LIDAR_EUROBOT](https://github.com/Eurobot-2026-Aerobotix/LIDAR_EUROBOT) | Obstacle-warning messages, remote visualization, Raspberry Pi integration |
+
+</details>
+
+## Robotics & embedded
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 ### 🏎️ NXP Cup Autonomous Car
@@ -134,9 +206,7 @@ Real-time lane following on a Teensy 4: Pixy2 vision → steering error → PID 
 [**Repository ↗**](https://github.com/aminebensaid66/NXP-CUP-FINALS)
 
 </td>
-</tr>
-<tr>
-<td colspan="2" valign="top">
+<td width="50%" valign="top">
 
 ### 🌊 Orange IoT Platform
 
@@ -224,9 +294,9 @@ Flutter · Electron
 
 **Connect**
 
-ROS 2 · micro-ROS · MQTT · MCP<br />
-REST · WebSockets · BLE<br />
-Serial · UDP · CAN
+ROS 2 · rosbridge · micro-ROS · tf2<br />
+MQTT · MCP · REST · WebSockets<br />
+BLE · Serial · UDP · CAN
 
 </td>
 <td width="33%" valign="top">
