@@ -104,7 +104,7 @@ Describe a linear program in **English or French** and get an optimal plan with 
 
 🥇 **1st in Tunisia** &nbsp;·&nbsp; 🥈 **Accumulation phase** &nbsp;·&nbsp; 🌍 **Top 5 worldwide** &nbsp;·&nbsp; [Team organization ↗](https://github.com/Eurobot-2026-Aerobotix) &nbsp;·&nbsp; [Robot demo ↗](https://www.youtube.com/watch?v=EC6gGIbOj7o&list=PLNhKoU2ZKSAGotMFKrfqBCY1hgt4LfQE8)
 
-An autonomous competition robot whose brain is a Raspberry Pi running **ROS 2 Jazzy**. It plans paths around live obstacles, runs match strategies, and drives an STM32 and several ESP32 boards through micro-ROS — all monitored and controlled from a browser over **rosbridge**.
+An autonomous competition robot whose brain is a Raspberry Pi running **ROS 2 Jazzy**. It plans paths around live obstacles, runs match strategies, and drives an STM32, three ESP32 boards, and the Wi-Fi PAMI robots through micro-ROS — all monitored and controlled from a browser over **rosbridge**.
 
 ```mermaid
 flowchart LR
@@ -130,7 +130,8 @@ flowchart LR
     LID --> TS
     TS <--> AG
     AG <-->|serial| STM["STM32<br/>navigation"]
-    AG <-->|"Wi-Fi · UDP"| ESP["ESP32<br/>actuator boards"]
+    AG <-->|serial| ESP["ESP32<br/>actuator boards"]
+    AG <-->|"Wi-Fi · UDP"| PAMI["PAMI<br/>robots"]
 ```
 
 <table>
