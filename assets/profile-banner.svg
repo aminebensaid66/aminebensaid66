@@ -37,12 +37,12 @@
     <circle cx="118" cy="235" r="5"/><circle cx="330" cy="224" r="5"/><circle cx="814" cy="238" r="5"/><circle cx="1124" cy="188" r="5"/>
   </g>
 
-  <text x="335" y="120" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="4">AMINE BENSAID</text>
+  <text x="600" y="120" text-anchor="middle" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" letter-spacing="4">AMINE BENSAID</text>
   <rect x="425" y="143" width="350" height="3" rx="1.5" fill="url(#accent)"/>
-  <text x="463" y="190" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="2">SOFTWARE ENGINEER</text>
-  <text x="420" y="230" fill="#B8B4C8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">TOOLS  •  PLATFORMS  •  AUTONOMOUS SYSTEMS</text>
+  <text x="600" y="190" text-anchor="middle" fill="#DDD6FE" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" letter-spacing="2">SOFTWARE ENGINEER</text>
+  <text x="600" y="230" text-anchor="middle" fill="#B8B4C8" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="1">DEV TOOLS  •  FULL-STACK  •  ROBOTICS  •  EMBEDDED</text>
 
-  <g transform="translate(430 264)">
+  <g transform="translate(452 264)">
     <circle cx="0" cy="0" r="5" fill="#FF7A72"/><text x="14" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">CODE</text>
     <circle cx="115" cy="0" r="5" fill="#A78BFA"/><text x="129" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">CONNECT</text>
     <circle cx="264" cy="0" r="5" fill="#2DD4BF"/><text x="278" y="5" fill="#D8D4E4" font-family="Arial, Helvetica, sans-serif" font-size="14">SHIP</text>
